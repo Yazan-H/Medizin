@@ -104,7 +104,7 @@ dataset ={}
 
 for file in load_mat_files[1:]:
     print(file, 'is loading')
-    dataset['samples'] = np.append( dataset ,
+    dataset['samplles'] = np.append( dataset ,
                                     sp.loadmat( data_path + file )['val'] )
     # print(dataset)
 
